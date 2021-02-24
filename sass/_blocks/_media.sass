@@ -2,6 +2,14 @@
     .header
         .container
             width: 900px
+    .b2
+        padding: 0
+        .b2_wrapper
+            .b2_blocks
+                .b2_item
+                    .b2_text
+                        width: 100%
+
     footer
         .container
             width: 100%
@@ -41,6 +49,7 @@
                     width: 100%
     .b3
         .b3_wrapper
+            width: 100%
             margin-top: 0
             .b3_item
                 margin-top: 30px
@@ -88,14 +97,18 @@
             .b2_blocks
                 width: 100%
                 flex-direction: column
-                img
-                    margin-right: 0
-                    width: 100%
+                .b2_item
+                    margin-left: 0
+                    img
+                        margin-right: 0
+                        width: 100%
     .b3
         .b3_wrapper
             margin-top: 0
             .b3_item
                 margin-top: 30px
+                img
+                    margin: 20px
     .b4
         &_wrapper
             flex-direction: column
@@ -157,7 +170,7 @@
             font-size: 22px
         .b3_wrapper
             .b3_item
-                padding: 20px 0
+                
                 width: 350px
     .b4
         .b4_wrapper
