@@ -1,7 +1,4 @@
 @media (max-width:1024px)
-    .header
-        .container
-            width: 900px
     .b2
         padding: 0
         .b2_wrapper
@@ -13,6 +10,16 @@
     footer
         .container
             width: 100%
+            form
+
+                .cpa-group-field
+                    width: 300px 
+                    margin-bottom: 0
+                    
+                .btn,
+                .cpa-input-submit
+                    width: 100%
+                    margin: 0 
             
 @media (max-width:900px)
     .header
@@ -87,10 +94,13 @@
                 justify-content: center
                 align-items: center
                 flex-direction: column
-                &_img
-                    display: block
-                    img
-                        max-width: 100%
+                .subheader_text
+                    text-align: center
+                    width: 100%
+                    &_img
+                        display: block
+                        img
+                            max-width: 100%
     .b2
         padding: 0
         .b2_wrapper
@@ -112,6 +122,9 @@
     .b4
         &_wrapper
             flex-direction: column
+            .b4_img
+                img
+                    width: 100%
             .b4_text
                 margin-top: 20px
     .b5
@@ -153,7 +166,7 @@
             .subheader_first
                 font-size: 25px
             .subheader_second
-                font-size: 24px
+                font-size: 22px
             .subheader_three
                 font-size: 18px
 
@@ -164,14 +177,21 @@
                     flex-direction: column
                     .b2_text
                         margin-top: 20px
+                        h4
+                            font-size: 20px
     .b3
         h2
             width: 100%
             font-size: 22px
         .b3_wrapper
             .b3_item
-                
                 width: 350px
+                .b3_text
+                    .b3_head
+                        font-size: 15px
+                    p
+                        font-size: 13px
+                        line-height: 15px
     .b4
         .b4_wrapper
             .b4_img
@@ -207,6 +227,11 @@
                         p
                             font-size: 14px
 @media (max-width:320px)
+    .header
+        .btn,
+        .cpa-input-submit 
+            width: 100%
+
     .b2
         .b2_wrapper
             .b2_blocks
@@ -223,7 +248,12 @@
                 width: 90%
                 .b3_text
                     width: 250px
-                    
+    .b4
+        .b4_wrapper
+            .b4_text
+                width: 100%
+                text-align: center
+    
           
 
 
